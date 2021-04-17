@@ -5,8 +5,8 @@
         
         <div class="row justify-content-center" >
             <h1 class="header"> Chercher classe par filiere</h1>
-            <form action="" class="searchform ">
-                <select class="form-select" id="filierechoice" aria-label="Default select example">
+            <form action="" class="searchform">
+                <select class="form-control" id="filierechoice" aria-label="Default select example">
                     <option selected>Open this select menu</option>
                   </select>
             </form>
@@ -682,11 +682,12 @@
         .searchform{
             margin: auto;
             text-align:center;
-            width: 70%;
+            width: 80%;
             padding: 20px;
         }
         .searchform > select {
             width: 80%;
+            margin: auto;
             height: 40px;
         }
         .header {
